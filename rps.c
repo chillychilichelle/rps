@@ -5,8 +5,8 @@
 
 #define GRIDXSIZE 50
 #define GRIDYSIZE 30
-#define THRESHOLD 4
-#define RANDOM_THRESHOLD_MODIFIER 0
+#define THRESHOLD 3
+#define RANDOM_THRESHOLD_MODIFIER 1
 #define SET_SEED -1
 
 int gridGetAtCoords(int x, int y, int grid[GRIDXSIZE][GRIDYSIZE]) {
